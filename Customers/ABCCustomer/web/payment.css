@@ -1,0 +1,141 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 16, 2023, 4:04:40 AM
+    Author     : Darshana
+*/
+
+nav
+{
+    
+  background: #5F0000;
+
+}
+/*
+.section1
+{
+    background: linear-gradient(360deg, #9C9696 58.22%, rgba(88, 86, 86, 0) 134.09%);
+    background-repeat: no-repeat;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top:350px;
+    background-size:cover;
+    
+}
+*/
+
+body
+{
+    background: linear-gradient(360deg, #565555 58.22%, rgba(88, 86, 86, 0) 134.09%);
+    background-repeat: no-repeat;
+    width:100%;
+    height: 1880px;
+    left: 0px;
+    top: 228px;
+
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwoNCAgICAoPCAcHBw0HBwcHCA8ICQcKIBEWFhURHxMYHSggGBolJx8fITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0NDg0PFSsZFRktNzctNysrKy03KysrKysrKy03LS0rNy0rKysrKysrKysrLSstKysrKysrKysrKysrK//AABEIAJ8BPgMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAACAQADB//EABkQAQEBAQEBAAAAAAAAAAAAAAARARIhAv/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgMF/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDxRijR6UcqLHGhCjGhRYsShyvJxoQoRocaEKEXkosWJQiwo0IUYkONCFCNDjQKEWFGgUYkONAoRocaBQiwo0IUYkONCFDlI6RIQoRocaJFoRI6RIQoRocSEWgxxokKDQo0IU40KLGmKEWFFWJQjQ40IUY0ONFiUIuYUWEKEWFGhCixReSJQjQ43KwoND5bkhQjQ+W5IUI0PluSFCND5bkhQjQ+W5IUGOJEi0YkONCFDlI6RIQoRocaJFrnGjpEhChEjokItCND3EhCnFhRY1GK5xc+TjLEo8tDaESjGhZixYUY0KLCJQjQ40IUYxRYsKDQ4kIlGNDjQhQjQ40IUI0ONCFCNDjQhQY40IUIkONCLQjQ40SFCNC5aEKEaHuJEi0OWhxCFCJHRoRa5xI6RIkWnFhRo3HOjFhRosSjFhZjQhRjQovKxKMaG0IUFmlFhEoTVhcryQrnFhRosKMaHGhEoRuTjQi0OWhxoRKEaHEhFoxI6RIQoRprpynKQoRHSJCFCNDjQi1zjQ+W5IUIkOJEi0YkONuEK58tDiRItOLFi8tMUYsKYsWJRjclmLFiUIuYUaEKkaFGixKMaacaEKMaFG5WFGLCjQiUY0LloFGNCjQhRjQo0IUY0KNAoxIcaEKEaFy0ItD1ocSJCjE3DaEKExtwo0SLQjQmhFoJHSJuJCucaHEiRacWKsbjFGLFixUo5ixcxYFGLCjRYlGLmFGixKMWFmNCFGNCzF5WJRjQosIlBjjEKDHGgUGONAoMcaEKESOkSEWhGh8tEhQiQ40ItDcSHGhChEhxokWhEhpuItGJD3EgtGJCZIUo2YUWNRmjFirFiVI2YUXMVKMWLFglGLmFmLFiUY0KLCJQi5hRosKMWFGixKMaFFhChEjpGhChGhxoQoRocSEKMTk40IUNxIcaJFoRoaRIUIkdIkItc40PcRFoNC3GgtCJDiJFoNC1tSLVWKrTFSKsXMVKkXFzFWIkXMXMWLEoxYqxYlSMWYsWJRjZhRYRKMaFF5WFCNDjQiUeWhRoQoxuSjQhQjQ40IUIkdOUhFoRjiRIUIkONuJFoRIcSJFoakOJCLQaEkSLRSE2ooRDRFqrGXFZaLisqLFzGZrErLi5i4sZSLFWKVIuYuYsWM1MxYqxYlGLFXMIlGNDjRYlGNDjQhQjQ40IVzjQ424RaESHE3EKMGHGFobibhxNxItBNJEaHUNNxIoRNwkZWikJkaCIWoiqrYqoy42LissWCWLiKuIuNIuYrYqstisqssuY2KqMsZY1EaLFiiUVirFiUYhRiFDcSHqbiLRiEmpFHcQhRUQk1FHcHTTUaBl1EaHULRZVNRUTVRFRGn//2Q==");background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container
+{
+  position: absolute;
+  width: 75%;
+  height: 1050px;
+  left:13%;
+  top: 10%;
+  right:80%;
+  background: transparent;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  margin:0% 40px 40% 0%;
+  align-content: center;
+  
+}
+
+.container1
+{
+  position: absolute;
+  width: 40%;
+  height: 450px;
+  left:55%;
+  top: 12%;
+  right:22%;
+  background-color: rgba(105, 103, 103, 0.1);
+
+  margin:0% 30% 30% 0%;
+  align-items: center;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  color: rgb(228, 223, 223);
+  text-decoration: #000000;
+  font-weight: bold;
+}
+h1{
+
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+footer
+{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    left: -2px;
+    top:182.90%;
+    bottom:0;
+    background-color: #360404;
+}
+
+.form1
+{
+    margin:10% 30% 30% 30%;
+}
+
+.visamaster
+{
+    position: absolute;
+    width: 100px;
+    height: 59px;
+    left: 201px;
+    top: 1031px;
+}
+
+.label2
+{
+    margin:10px;
+}
+
+.col-20
+{
+    padding:0 16px;
+}
+
+.row
+{
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    margin:0 -16px;
+}
+
+table,th,td
+{
+    border:12px;
+    
+}
+
+span {
+  content: "\2713";
+}
