@@ -1,0 +1,16 @@
+SMAP
+selectmovie_jsp.java
+JSP
+*S JSP
+*F
++ 0 selectmovie.jsp
+selectmovie.jsp
+*L
+5,20:45
+25,19:66
+43,42:85
+85:127,3
+86,113:130
+199,4:244
+202,3:248
+*E
