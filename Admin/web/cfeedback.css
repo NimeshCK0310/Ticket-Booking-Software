@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 16, 2023, 2:53:48 AM
+    Author     : Darshana
+*/
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins',sans-serif;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+        }
+        #test{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+        }
+        .test-heading{
+            letter-spacing: 1px;
+            margin: 30px 0px;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .test-heading h1{
+            font-size: 2.2rem;
+            font-weight: 500;
+            background-color: #202020;
+            color: #ffffff;
+            padding: 10px 20px;
+        }
+        .test-heading span{
+            font-size: 1.3rem;
+            color: #252525;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .test-box-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .test-box{
+          width: 500px;
+          box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+          background-color: #ffffff;
+          padding: 20px;
+          margin: 15px;
+          cursor: pointer;
+        }
+        
+        .profile{
+            display: flex;
+            align-items: center;
+        }
+        .name-user{
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+        }
+        .name-user strong{
+            color: #3d3d3d;
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+        }
+        .name-user span{
+            color: #979797;
+            font-size: 0.8rem;
+        }
+        .box-top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .cliet-comment p{
+            font-size: 0.9rem;
+            color: #s4b4b4b;
+            margin-left: 40px;
+        }
+        .test-box:hover{
+            transform: translateY(-10px);
+            transition: all ease 0.3s;
+        }
+        @media(max-width:1060px){
+            .test-box{
+                width: 45%;
+                padding: 10px;
+            }
+        }
+         @media(max-width:790px){
+            .test-box{
+                width: 100%;
+            }
+            .test-heading{
+                font-size: 1.4rem;
+            }
+        }
+        @media(max-width:340px){
+            .box-top{
+              flex-wrap: wrap;
+              margin-bottom: 10px;
+            } 
+        }
+        ::selection{
+            color: #ffffff;
+            background-color: #252525;
+        }
+         
