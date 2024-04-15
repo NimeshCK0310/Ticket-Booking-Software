@@ -1,0 +1,172 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 14, 2023, 7:58:16 PM
+    Author     : Darshana
+*/
+
+body {
+    background-color: black;
+    color:black;  }
+    
+
+   .button1 {padding: 8px 12px;
+   background-color:black;
+   color: white;
+   
+   body {
+    background-color: white;
+    color:black;  }
+    }
+   .con1:hover{
+       color:rgb(186, 255, 19) ;
+       
+   }
+   * {
+box-sizing: border-box;
+}
+.column {
+float: left;
+width: 33%;
+padding: 0 10px;
+}
+.column1 {
+
+width: 33%;
+padding: 0 10px;
+}
+.row {margin: 3 1px;
+    padding: 160px 32px;}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    padding: 1% 4.5%;
+    justify-content: space-between;
+    align-items: left;
+    background-color: black;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 15px;
+    position: relative;
+    
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto; 
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+   width: 90%;
+   color: white;
+  
+}
+.text-box h1{
+    font-size: 35px;    
+}
+nav .fa{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+.column {
+width: 100%;
+display: block;
+margin-bottom: 20px;
+}
+}
+.card {
+
+padding: 16px;
+
+color:black;
+background-color: lightcoral;
+}
+.card1 {
+
+padding: 16px;
+
+color:black;
+background-color: lightseagreen;
+}
+.card2 {
+
+padding: 16px;
+
+color:black;
+background-color: lightblue;
+}
+.card3 {
+
+padding: 70px;
+width: 80%;
+color:black;
+background-color: white;
+
+}
+ul{
+font-size: 30px;
+}
+.button {
+background-color: rgb(186, 255, 19); 
+border: none;
+border-radius: 4px;
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+margin: 10px 10px;
+cursor: pointer;
+-webkit-transition-duration: 0.4s; 
+transition-duration: 0.4s;
+float: right;
+
+}
+.con:hover {
+
+border-radius: 20px;
+background-color: rgb(71, 181, 6) ;
+color: white;
+
+}
+.ticket
+{
+font-size: 20px;
+color: white;
+}
